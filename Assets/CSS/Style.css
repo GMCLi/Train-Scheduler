@@ -1,0 +1,61 @@
+.jumbotron {
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    opacity: 0.6;
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    opacity: 0.9;
+}
+
+#train-table th,
+td {
+  display: inline-block;
+  width: 16.575%;
+}
+
+.card-header {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(77, 122, 219);
+}
+
+.card-body {
+    width: 100%;
+    margin: auto;
+    /* background-color: rgb(77, 162, 219);    */
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 60%;
+        margin: 0 0 0 50px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        text-align: justify;
+        text-indent: 2em;
+        margin: 0 auto 0 auto;
+    }
+    body {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #headshot {
+        float: none;
+        margin: 0 auto 0 auto;
+    }
+}
+
+body {
+    background-image: url(../Images/background.jpg);
+}
